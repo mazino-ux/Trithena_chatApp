@@ -99,6 +99,7 @@ function Chat() {
         <button className="sendButton">Send</button>
       </div>
     </div>
+    
   )
 }
 
