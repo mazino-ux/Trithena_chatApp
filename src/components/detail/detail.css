@@ -1,0 +1,92 @@
+.detail{
+    flex: 1;
+    overflow: scroll;
+}
+.detail .user{
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #dddddd35;
+
+    h2{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.9rem; font-weight: 100;
+        color: #d6d6d6e2;
+    }
+}
+.detail .user img{
+    width: 85px; height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.detail .info{
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.detail .info .option{
+
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            width: 30px; height: 30px;
+            background-color: rgba(103, 103, 104, 0.3);
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+    } 
+}
+.detail .info .photos{
+    display: flex; gap: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.detail .info .photos .photoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon{
+        width: 30px; height: 30px;
+        background-color: rgba(103, 103, 104, 0.3);
+        padding: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+.detail .info .photos .photoItem .photoDetail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.detail .info .photos .photoItem .photoDetail img{
+    width: 40px; height: 40px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.detail .info .photos .photoItem .photoDetail span{
+    font-size: 14px;
+    color: lightgray;
+    font-weight: 200;
+}
+
+/* --------- */
+.detail .info button{
+    padding: 10px 20px;
+    background-color: rgba(222, 10, 52, 0.678);
+    color: #fff; cursor: pointer;
+    border: none; border-radius: 5px;
+}
+.detail .info button:hover{
+    background-color: rgba(239, 6, 53, 0.822);
+}

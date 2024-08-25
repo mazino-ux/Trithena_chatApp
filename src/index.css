@@ -5,3 +5,18 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+body{
+  background-image: url("https://img.freepik.com/free-vector/shiny-neon-lights-background_23-2148488875.jpg?t=st=1724295164~exp=1724298764~hmac=e45dd77d940f70b5222985fa95a8729d9b1a38c0cf8e4f6a45ddc91398da52c2&w=740");
+  /* background-repeat: no-repeat; background-size: cover; */
+  display: flex; justify-content: center;
+  align-items: center; height: 100vh;
+  color: #fff;
+}
+.container{
+  width: 90vw; height: 90vh;
+  background-color: rgba(17, 25, 40, .75);
+  border-radius: 12px; display: flex;
+  backdrop-filter: blur(19px) saturate(180%);
+  border: 1px solid rgba(255, 255,255,.125);
+}
