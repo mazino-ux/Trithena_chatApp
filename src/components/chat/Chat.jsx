@@ -1,12 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "./chat.css"
 import EmojiPicker from 'emoji-picker-react'
 
 function Chat() {
   const [open, setOpen] = useState(false);
   const [text, setText] = useState("");
+
+  const endRef = useRef(null)
+  
+  useEffect(() => {
+    endRef.current?.scrollIntoView({behavior: "smooth"});
+  },[])
+
   const handleEmoji = e => {
     setText (prev => prev + e.emoji)
   }
@@ -74,6 +81,7 @@ function Chat() {
             <span>1 min ago</span>
           </div>
         </div>
+        <div ref={endRef}></div>
       </div>
 
 
