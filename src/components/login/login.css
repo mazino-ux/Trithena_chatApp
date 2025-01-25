@@ -1,0 +1,86 @@
+.login{
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.login .item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; padding: 15px; 
+    padding-top: 5%; padding-bottom: 5%;
+    box-shadow: 0px 8px 15px rgba(252, 252, 252, 0.1); 
+    border-radius: 10px;
+    margin-right: 5%; margin-left: 5%;
+    transition: transform 0.3s ease; 
+}
+.login .item:hover {
+    transform: translateY(-10px); 
+}
+
+.login .item form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; gap: 20px;
+    
+}
+.login .item form input{
+    padding: 15px;
+    border: none;
+    outline: none; color: #69fff8;
+    background-color:  rgba(17,25,40, .6);
+    border-radius: 5px; 
+    transition: border 0.3s ease;
+    width: 110%;
+}
+.login .item form input:focus {
+    border: 1px solid #69fff8; 
+}
+
+.login .item form label{
+    width: 100%; display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* .login .item form label img{
+    width: 50px; height: 50px;
+    border-radius: 10px; object-fit: cover;
+    opacity: 0.6;
+} */
+.login .item form label img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.8;
+    margin-right: 10px;
+    border: 2px solid #027d83;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.login .item form label img:hover {
+    opacity: 1;
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.login .item form button{
+    width: 100%; padding: 18px;
+    border: none; color: #fff;
+    background-color: #027d83;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+/* --------------------------- && •SEPARATOR• &&---------------------------- */
+
+.login .separator{
+    height: 80%; width: 2px;
+    background-color: #dddddd35;
+}

@@ -23,7 +23,7 @@ function Chat() {
       <div className="top">
 
         <div className="user">
-          <img src="./avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className="texts">
             <span>Jesus🔥</span>
             <p>I am the Way, the Truth and the Light💡✨!</p>
@@ -31,9 +31,9 @@ function Chat() {
         </div>
 
         <div className="icons">
-          <img src="./phone.png" alt="" />
-          <img src="./video.png" alt="" />
-          <img src="./info.png" alt="" />
+          <img src="/phone.png" alt="" />
+          <img src="/video.png" alt="" />
+          <img src="/info.png" alt="" />
         </div>
       </div>
 
@@ -41,7 +41,7 @@ function Chat() {
       <div className="center">
 
         <div className="message">
-          <img src="./avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className="texts">
             <p>Hey! Just wanted to remind you that you're never alone. Keep the faith and stay strong😊.</p>
             <span>2 min ago</span>
@@ -54,7 +54,7 @@ function Chat() {
           </div>
         </div>
         <div className="message">
-          <img src="./avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className="texts">
             <p>Whenever you feel worried, weary, or anxious, turn to me in prayer. I'm here to guide and support you through every challenge.</p>
             <span>1 min ago</span>
@@ -68,7 +68,7 @@ function Chat() {
           </div>
         </div>
         <div className="message">
-          <img src="./avatar.png" alt="" />
+          <img src="/avatar.png" alt="" />
           <div className="texts">
             <img src="https://img.freepik.com/free-photo/medium-shot-cartoony-jesus-christ_23-2150972274.jpg?t=st=1724480360~exp=1724483960~hmac=aa2460dbc05058537fef123f052a1c3b79150caeef3c1020de848482aceef85a&w=740" alt="" />
             <p>Aww.</p>
@@ -88,16 +88,16 @@ function Chat() {
 {/* &&&&&&&&&&&&&&&&&&&&&&& BOTTOM &&&&&&&&&&&&&&&&&&&&&& */}
       <div className="bottom">
         <div className="icons">
-          <img src="./img.png" alt="" />
-          <img src="./camera.png" alt="" />
-          <img src="./mic.png" alt="" />
+          <img src="/img.png" alt="" />
+          <img src="/camera.png" alt="" />
+          <img src="/mic.png" alt="" />
         </div>
         <input type="text" placeholder='Type a message...' 
           onChange={e=>setText(e.target.value)}
           value={text}
         />
         <div className="emoji">
-          <img src="./emoji.png" 
+          <img src="/emoji.png" 
             alt="" 
             onClick={() => setOpen((prev) => !prev)} />
           <div className="picker">

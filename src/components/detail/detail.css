@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
     border-bottom: 1px solid #dddddd35;
 
     h2{
@@ -27,7 +27,7 @@
     padding: 20px; 
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
 }
 .detail .info .option{
 
@@ -82,11 +82,24 @@
 
 /* --------- */
 .detail .info button{
-    padding: 10px 20px;
-    background-color: rgba(222, 10, 52, 0.678);
+    padding: 12px;
+    background-color: rgba(222, 10, 52, 0.473);
     color: #fff; cursor: pointer;
     border: none; border-radius: 5px;
 }
 .detail .info button:hover{
-    background-color: rgba(239, 6, 53, 0.822);
+    background-color: rgba(215, 10, 51, 0.854);
+    border-bottom: 2.1px solid #d0d0d096;
+    box-shadow: inset 0px 4px 8px 4px rgba(122, 0, 0, 0.881);
+    letter-spacing: -.15px;
+}
+.detail .info .logout{
+   padding: 10px;
+   background-color: #027d8356; 
+
+   &:hover{
+    background-color: #03979fe0;
+    box-shadow:inset 0px 4px 8px 4px rgba(55, 75, 68, 0.8);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+   }
 }
